@@ -1,0 +1,49 @@
+html{
+	font-size: 10px;
+  font-family: sans-serif;
+	background:url(https://soundtraining.com/music-academy/wp-content/uploads/2016/02/drums-lessons.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body{
+  margin:0;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 4px groove rgb(143, 123, 12);
+  border-radius: 16px;
+  margin: 10px;
+  padding: 10px 5px;
+  transition: all .05s ease;
+  width: 100px;
+  text-align: center;
+  color: #bdaa0d;
+  background: rgba(0,0,0,0.5);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}

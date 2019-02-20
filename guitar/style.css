@@ -1,0 +1,46 @@
+html{
+    background-image: url(http://orszagostabor.lutheran.hu/_valasztokepek/zenei_t%C3%A1bor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.strings{
+    min-height: 100vh;
+    float: right;  
+}
+
+.string{
+    display: inline-block;
+    border: 3px solid rgb(38, 53, 141);
+    border-radius: 90%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(138, 143, 123, 0.5);
+    transition: all .05s ease;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 19px;
+    color: antiquewhite;
+  }
+  
+  .sound {
+    font-size: 12px;
+    font-style: oblique;
+    color: #947a12;
+  }
+  
